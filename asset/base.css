@@ -1,0 +1,140 @@
+:root {
+    --while-color: #fff;
+    --back-color: #000;
+    --text-color: #4D4C4A;
+    --text-lifes: #018E86;
+    --text-up: #018BB9;
+    
+}
+
+
+
+.rec-26c7f6{
+    background-color:rgba(0, 189, 245, 0.85);
+}
+.rec-6BD5D1 {
+    background-color: rgba(107, 213, 209, 0.85);
+}
+.rec-19C6C0 {
+    background-color: #19C6C0;
+    
+}
+.btn-nav{
+    display: flex;
+    background-color: #00BDF5;
+    color: #fff;
+    width: 124px;
+    height: 100%;
+    justify-content: center;
+    align-items:center;
+    border-radius:4px;
+    padding-top: 12px;
+    
+}
+.btn{
+    display: flex;
+    background-color: #6BD5D1;
+    color: #fff;
+    width: 180px;
+    height: 32px;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items:center;
+    border-radius:4px;
+   
+}
+.btn-learn {
+    display: flex;
+    background-color: #00BDF5;
+    color: #fff;
+    width: 180px;
+    height: 34px;
+    padding: 8px 8px;
+    justify-content: center;
+    align-items:center;
+    border-radius:4px;
+    
+}
+/* .button {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+} */
+.btn-trans {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: #00BDF5;
+    border: 1px solid #00BDF5;
+    width: 30%;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 10px;
+}
+.btn-learn,
+.btn-trans:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 60px;
+    /* max-width: 100%; */
+    margin: 0 auto;
+    /* padding-top: 58px; */
+}
+.grid-spacing {
+    display: flex;
+    width: 1400px;
+    height: 440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top:132px;
+}
+.gird__full-width {
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+}
+
+.grid__column-2{
+    padding-left: 5px;
+    padding-right:  5px;
+    width: 16.6667%;
+}
+.grid__column-3{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.grid__column-logo{
+    width: 30%;
+}
+.grid__column-icon{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right:  5px;
+    width: 83.333%;
+    
+
+}
+.float-right {
+    float: right;
+}
+.background-color {
+background: rgba(107, 213, 209, 0.15) !important;
+width: 100%;
+padding: 8px;
+
+border-radius: 4px;
+z-index: -2 !important;
+}
